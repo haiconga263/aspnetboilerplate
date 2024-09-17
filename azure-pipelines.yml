@@ -19,7 +19,7 @@ stages:
     displayName: 'windows-latest'
     dependsOn: [  ]
     pool:
-      vmImage: 'windows-latest'
+      vmImage: 'MAC'
     jobs:
       - job: Test
         displayName: 'Test'
